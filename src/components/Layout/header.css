@@ -1,0 +1,23 @@
+.form-control{
+    width:350px;
+    border-radius: 0px 10px 0px 10px;
+    margin-right: 10px;
+}
+.icon{
+    color:rgb(255, 153, 0);
+}
+form{
+    padding-right: 50px;
+}
+.nav-link{
+    font-weight:bolder;
+    color:aliceblue;
+}
+.collapse{
+    background:linear-gradient( rgb(108, 193, 222),rgb(157, 157, 218));
+}
+@media screen and (max-width:876px) {
+    .form-control{
+        width:250px;
+    }
+}

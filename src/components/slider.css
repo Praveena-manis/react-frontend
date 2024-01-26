@@ -1,0 +1,10 @@
+.card{/*card with different shades*/
+    background: #e5e5e5 !important;
+    box-shadow:15px 20px 20px rgba(0,0,0,.3),
+                inset 2px 2px 5px grey;
+    border-radius: 10px !important;
+    padding-left:0px;
+   border-left: 0px;
+    margin-bottom:10px;
+    text-align: center;
+}

@@ -1,0 +1,14 @@
+.banner{
+    display:block;
+}
+.Mobilebanner{
+    display: none;
+}
+@media only screen and (max-width:480px) {
+    .banner{
+        display:none;
+    }
+    .Mobilebanner{  
+        display: block;
+    }
+}
