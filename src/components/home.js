@@ -2,6 +2,7 @@ import React from 'react';
 import Cover from './homecover';
 import Slider from './slider';
 import Layout from "./../components/Layout/Layout";
+//eslint-disable-next-line
 import Homepage from '../pages/user/home'
 import { useAuth } from "../context/auth";
 function Home(){
