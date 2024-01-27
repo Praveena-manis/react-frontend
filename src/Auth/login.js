@@ -18,7 +18,7 @@ function Login() {
         setLoading(true);
         try {
             const requestData={email,password}
-      const resp= await axios.post(`https://ecommercebckend.onrender.com/api/v1/user/login`,requestData)
+      const resp= await axios.post(`${BASE_URL}/api/v1/user/login`,requestData)
       if(resp.status===200){
         setLoading(false);
         toast.success(resp.data.message);
